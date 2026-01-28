@@ -1,0 +1,53 @@
+datatype function name (Argument){
+
+    //code
+
+
+    return...
+}
+
+Example
+
+//Add two numbers
+
+int add(int a, int b){
+    int c=a+b;
+    return c;
+}
+
+//Types of function
+1- No argument , no return 
+
+void greet(){
+    cout<<"Hello";
+} 
+
+2- Argument , no return
+
+void greet(String name){
+    cout<<"Hello"<<name;
+}
+
+3- No argument , return
+
+int add(){
+    int a= 5;
+    int b= 10;
+    int c= a+b;
+    return c;
+}
+
+4- argument , return 
+
+int add(int a, int b){
+    int c=a+b;
+    return c;
+}
+
+int main(){
+    greet();
+    greet("Yash);
+    add();
+    add(5,10);
+    return 0;
+}
