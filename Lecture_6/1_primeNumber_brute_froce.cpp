@@ -12,10 +12,10 @@ int main ()
         }
     }
 
-    if(ans){
+    if(ans){ //ans == true
         cout<<"prime";
     }
-    else{
+    else{ // ans == false
         cout<<"not prime";
     }
    return 0;
