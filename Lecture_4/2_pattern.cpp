@@ -13,7 +13,7 @@ int main ()
     int m;
     cin>>m;
     int n=(m+1)/2;
-    //left star
+    //upper left star
     for(int i=1; i<=n; i++){
         for(int j=1; j<=n-i; j++){
             cout<<"* ";
@@ -23,7 +23,7 @@ int main ()
             cout<<"  ";
         }
 
-        //right star
+        //upper right star
         for(int j=1; j<=n-i; j++){
             cout<<"* ";
         }
@@ -31,6 +31,7 @@ int main ()
     }
 
     for(int i=n-1; i>=1; i--){
+        //lower left star
         for(int j=1; j<=n-i; j++){
             cout<<"* ";
         }
@@ -39,7 +40,7 @@ int main ()
             cout<<"  ";
         }
 
-        //right star
+        //lower right star
         for(int j=1; j<=n-i; j++){
             cout<<"* ";
         }
