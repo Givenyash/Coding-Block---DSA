@@ -5,11 +5,11 @@ int main ()
 {
     int n;
     cin>>n;
-    int g=1;
+    int g=0;
     int sum=0;
     while (n>0){
         int k=n%10;
-        sum=k*pow(2,g);
+        sum= sum + k * pow(2,g);
         g++;
         n=n/10;
     }
