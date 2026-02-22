@@ -14,7 +14,7 @@ int len(int x){
 int main(){
     int x;
     cin>>x;
-    int L = len(x); // total digit 
+    int L = len(x); // total digit (l)
     int totalLength = L; // store original length
 	int result = 0; 
 	int t;
