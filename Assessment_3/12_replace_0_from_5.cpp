@@ -32,4 +32,4 @@ int main(){
 	cout<<output; 
 
     return 0;
-}
+} 
