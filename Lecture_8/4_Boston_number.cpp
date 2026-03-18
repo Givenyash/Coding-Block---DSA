@@ -41,9 +41,6 @@ int main ()
         }
     }
 
-    // cout<<sum<<endl;
-    // cout<<factor<<endl;
-
     if(sum==factor){
         cout<<" Boston"<<endl;
     }
