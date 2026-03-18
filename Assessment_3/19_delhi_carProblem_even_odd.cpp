@@ -1,3 +1,4 @@
+// with array
 #include<iostream>
 using namespace std;
 int main() {
@@ -38,3 +39,40 @@ int main() {
 
 	return 0;
 }
+
+//without array
+// #include<iostream>
+// using namespace std;
+// int main() {
+// 	int t;
+// 	cin>>t;
+
+// 	while(t>0){
+// 		int n;
+// 		cin>>n;
+
+// 		int oddSum = 0;
+// 	    int evenSum = 0;
+// 		while(n>0){
+	
+//         int k = n % 10;
+
+//         if(k % 2 == 1)
+//             oddSum= oddSum+ k;
+
+//         else
+//             evenSum= evenSum +k ;
+
+//         n = n / 10;
+// 	}
+
+// 	if(oddSum % 3 == 0 || evenSum % 4 == 0){
+// 		cout<<"Yes"<<endl;
+// 	}
+// 	else{
+// 		cout<<"No"<<endl;
+// 	}
+// 	t--;
+// 	}
+// 	return 0;
+// }
