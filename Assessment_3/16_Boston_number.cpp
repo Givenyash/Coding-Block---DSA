@@ -12,16 +12,6 @@ int digitsum(int n){
     return sum;
 }
 
-//checking factors are prime or not
-bool prime(int n){
-    for(int i=2; i*i<=n; i++){
-        if(n % i == 0){
-            return false;
-        }
-    }
-    return true;
-}
-
 //main function
 int main ()
 {
@@ -34,9 +24,7 @@ int main ()
     //
     for(int i=2; i<=n; i++){
         while(n % i ==0){
-            if(prime(i)){
                 factor+=digitsum(i);
-            }
             n=n/i;
         }
     }
